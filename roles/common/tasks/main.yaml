@@ -13,7 +13,9 @@
 - name: msg-3
   debug:
     msg: "Hello from msg-3"
+    # when: OS == "RedHat" 
 
 - name: msg-4
   debug:
     msg: "Hello from msg-4"
+    # when: OS == "RedHat" 
