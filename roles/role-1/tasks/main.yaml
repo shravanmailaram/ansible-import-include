@@ -1,7 +1,10 @@
 - name: call common role
-  #include_role:
-  import_role:
+  include_role:
+  # import_role:
     name: common
   when: OS == "RedHat" 
   tags:
   - hi
+  loop:
+  - Ramesh
+  - Suresh
