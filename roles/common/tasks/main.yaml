@@ -5,6 +5,8 @@
 - name: msg-2
   debug:
     msg: "Hello from msg-2"
+  tags:
+  - hi
 
 - name: change the variable
   set_fact: # We can change the variable value using set_fact module
